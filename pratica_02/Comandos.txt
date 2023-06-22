@@ -1,0 +1,10 @@
+setenv ipaddr 10.0.0.2
+setenv serverip 10.0.0.1
+tftp 0x80000000/tftpboot/appGpio.bin
+go 0x80000000
+
+
+setenv app "setenv autoload no;setenv ipaddr 10.0.0.1; setenv serverip 10.0.0.2; tftp 0x80000000 /tftpboot/appinterrup.bin;echo ***Booting to BareMetal ***;go 0x80000000"
+
+run app
+

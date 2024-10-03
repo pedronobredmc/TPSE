@@ -1,0 +1,17 @@
+a)
+	gpioREG |= gpio_enabled;
+	
+b)
+	if(gpioREG & gpio_enabled){
+			gpioREG &= ~gpio_enabled;
+	}
+	
+c)
+	gpioREG &= gpio_direction;
+	
+d)
+	if(gpioREG & gpio_level){
+			gpioREG &= ~gpio_level;
+	}else{
+			gpioREG |= gpio_level;
+	}

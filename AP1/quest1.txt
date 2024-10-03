@@ -1,0 +1,5 @@
+A etapa de construção é onde ocorre a montagem do  sistema com todos os componentes necessários, como o processador memoria e etc.
+
+A etapa de ambiente é onde o sistema é escolhido, configurado e programado para realizar as funções desejadas.
+
+A etapa de gravação é onde o código-fonte é compilado e transferido para o sistema embarcado.
